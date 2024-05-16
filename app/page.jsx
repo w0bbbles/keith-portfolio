@@ -1,20 +1,9 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '/public/smart-fox.png'
 //import { TypewriterEffect } from './components/ui/typewriter-effect';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <Image
-            src={Logo}
-            alt='Dojo Helpdesk logo'
-            width={100}
-            placeholder='blur'
-            title='placeholder'
-            quality={100}
-            className='pb3xl'
-        />
             {/*<TypewriterEffect words={words} /> ---text animation KIV */}
             <p>My name is Keith and as a web developer utilized ASP, Next.js with Tailwind and Boostrap I focus on creating interactive websites that captivate users and highlight clients' products. My approach is rooted in a balance of technical expertise and creative design, ensuring each project not only meets, but exceeds client expectations. By leveraging the latest technologies and maintaining a user-centric focus, I deliver websites that are both visually stunning and highly functional. You can expect a professional yet approachable collaboration, resulting in a digital presence that truly stands out.</p>
 
