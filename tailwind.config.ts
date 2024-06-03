@@ -10,7 +10,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
+  //darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -22,6 +22,24 @@ const config: Config = {
     require('daisyui'),
     addVariablesForColors
   ],
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "retro",
+      "valentine",
+      "aqua",
+      {
+        "custom-theme": {
+          "primary": "#a991f7",
+          "secondary": "#f6d860",
+          "accent": "#37cdbe",
+          "neutral": "#3d4451",
+          "base-100": "#ffffff",
+        },
+      },
+    ],
+  },
 };
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
